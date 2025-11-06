@@ -1,1 +1,40 @@
-{"sections":{"featured_collection":{"type":"featured-collection","settings":{"heading_size":"h2","show_description":true,"show_pagination":true,"collection":"fake-collection","products_to_show":22,"columns_desktop":4,"show_view_all":true}},"ad_cards":{"type":"ad-cards","disabled":true,"settings":{}},"bottom_navigation":{"type":"bottom-navigation","settings":{"menu":"main-menu"}}},"order":["featured_collection","ad_cards","bottom_navigation"]}
+{
+  "sections": {
+    "hero_collage": {
+      "type": "hero-collage",
+      "blocks": {
+        "image_1": {
+          "type": "image",
+          "settings": {}
+        }
+      },
+      "block_order": ["image_1"],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "custom_link": "/collections/all",
+        "desktop_layout": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "brand_message": {
+      "type": "brand-message",
+      "settings": {
+        "message_text": "<p><em>Parcheh Minimalism</em></p><p>Accessible design by producing less & building better.<br/>Contemporary fashion from the heart of creativity</p>",
+        "button_label": "Shop All",
+        "button_link": "/collections/all",
+        "footer_quote": "* Good design is as little design as possible *",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "bottom_navigation": {
+      "type": "bottom-navigation",
+      "settings": {
+        "menu": "main-menu"
+      }
+    }
+  },
+  "order": ["hero_collage", "brand_message", "bottom_navigation"]
+}
